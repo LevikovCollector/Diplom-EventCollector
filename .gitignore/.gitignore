@@ -99,3 +99,10 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+.idea/
+__pycache__/
+data.json
+data.py
+event_collector.py
+info.sqlite
