@@ -20,5 +20,10 @@ def db_commit():
     db_session.commit()
 
 
+def not_send_info():
+    info = Info_Data()
+    return info.query.filter(Info_Data.send_status == False).all()
+
+
 if __name__ == '__main__':
     pass

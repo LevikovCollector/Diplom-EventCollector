@@ -7,7 +7,7 @@ APPS_LIST = ['Chrome', 'PyCharm', 'Sublime']
 
 def main(app):
     additional_info = None
-    date = datetime.strptime(str(datetime.now().strftime('%d.%m.%y %H:%M')),'%d.%m.%y %H:%M')
+    date = datetime.strptime(str(datetime.now().strftime('%d.%m.%y %H:%M')), '%d.%m.%y %H:%M')
     data_add_status = False
 
     if app == APPS_LIST[0]:
@@ -30,4 +30,5 @@ def main(app):
 
 
 if __name__ == '__main__':
+    main('Chrome')
     pass

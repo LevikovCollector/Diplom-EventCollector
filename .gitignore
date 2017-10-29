@@ -106,3 +106,5 @@ data.json
 data.py
 event_collector.py
 info.sqlite
+*.pyc
+*.sqlite
